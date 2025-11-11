@@ -5,14 +5,10 @@ on:
     branches:
       - main
 
-env:
-  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-  HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
-  HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: kovacsik-ai-chatbot
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
