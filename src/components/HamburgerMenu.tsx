@@ -14,7 +14,7 @@ interface HamburgerMenuProps {
 }
 
 const DEFAULT_QUESTIONS: PrefilledQuestion[] = [
-  { id: '1', text: 'What are the best games of 2024?' },
+  { id: '1', text: 'What are the best games of 2025?' },
   { id: '2', text: 'Tell me about the latest gaming news' },
   { id: '3', text: 'What are the most anticipated upcoming games?' },
   { id: '4', text: 'Compare different gaming consoles' },
