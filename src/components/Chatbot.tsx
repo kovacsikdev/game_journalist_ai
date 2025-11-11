@@ -22,7 +22,7 @@ const Chatbot = ({ onMenuToggle }: ChatbotProps) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: 'Hello! I\'m your Video Game Journalist AI assistant. Ask me anything about games! Use the following example prompts to get started:\n\n1. What are the best games of 2024?\n2. Tell me about the latest gaming news\n3. What are the most anticipated upcoming games?\n4. Compare different gaming consoles\n5. What are the best indie games?',
+      text: 'Hello! I\'m your Video Game Journalist AI assistant. Ask me anything about games! Use the following example prompts to get started:\n\n1. What are the best games of 2025?\n2. Tell me about the latest gaming news\n3. What are the most anticipated upcoming games?\n4. Compare different gaming consoles\n5. What are the best indie games?',
       sender: 'bot',
       timestamp: new Date()
     }
