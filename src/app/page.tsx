@@ -8,7 +8,7 @@ const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <main style={{ height: '100%', width: '100%' }}>
+    <main>
       <HamburgerMenu 
         isOpen={isMenuOpen} 
         onClose={() => setIsMenuOpen(false)} 

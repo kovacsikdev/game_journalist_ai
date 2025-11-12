@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
   color: #e0e0e0;
   position: relative;
@@ -52,7 +52,7 @@
 
 .title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
