@@ -54,10 +54,7 @@
   margin: 0;
   font-size: 1.2rem;
   font-weight: 600;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: white;
 }
 
 .messagesContainer {
@@ -124,7 +121,7 @@
 }
 
 .userMessage .messageContent {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #764ba2;
   color: white;
   border-bottom-right-radius: 0.25rem;
 }
@@ -360,7 +357,7 @@
   padding: 0.875rem 2rem;
   border: none;
   border-radius: 0.75rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #764ba2;
   color: white;
   font-size: 1rem;
   font-weight: 600;
@@ -379,7 +376,7 @@
 }
 
 .sendButton:disabled {
-  opacity: 0.5;
+  opacity: 0.25;
   cursor: not-allowed;
   transform: none;
 }
